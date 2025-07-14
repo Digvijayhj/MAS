@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  mission-awareness-service:
+    build: .
+    ports:
+      - "8080:8080"
+    container_name: mas-service
+    volumes:
+      - ./data:/app/data

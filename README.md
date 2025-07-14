@@ -97,5 +97,3 @@ To manually run the test suite (via Gradle):
 
 If using Docker, tests are executed as part of the container build.
 
----
-# MAS
